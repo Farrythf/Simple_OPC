@@ -1,0 +1,26 @@
+﻿  BMS_read.cpp
+  Data_load.cpp
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\BMS_read.cpp(412,7): warning C4101:  'Rev_data': unreferenced local variable
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Data_load.cpp(29,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Data_load.cpp(48,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  Simple_Algorithms.cpp
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Data_load.cpp(69,42): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(49,12): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(54,53): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(65,54): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(149,16): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(155,16): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(187,12): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(191,11): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(195,13): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(200,28): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(210,28): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(181,7): warning C4101:  'SQL_com': unreferenced local variable
+  Simple_OPC.cpp
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(180,7): warning C4101:  'time': unreferenced local variable
+  Timer.cpp
+  Generating Code...
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_OPC.cpp(67,35): warning C4244:  'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_OPC.cpp(67,35): warning C4244: C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(242) : warning C4715: 'Call_EMS_t': not all control paths return a value
+C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_OPC.cpp(67,35): warning C4244: C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Simple_OPC\Simple_Algorithms.cpp(135) : warning C4715: 'Call_EMS': not all control paths return a value
+  Simple_OPC.vcxproj -> C:\Users\thf-m\OneDrive\Documents\vs_programme\Simple_OPC\Debug\Simple_OPC.exe
