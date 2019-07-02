@@ -1,3 +1,7 @@
+//author Hongfei Tian @ GEIRINA
+
+//Last modify 2019-07-01
+
 #include "BMS_read.h"
 using namespace std;
 

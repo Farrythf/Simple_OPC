@@ -43,6 +43,8 @@ class timer :public ITimerEngineCallBack
 int main()
 {
 	int iError;
+
+	// Database init
 	cout << "Connecting database...";
 	conn = PQsetdbLogin("127.0.0.1", "5432", NULL, NULL, "mydatabase", "user1", "1234");
 	if (conn == NULL)
@@ -53,6 +55,7 @@ int main()
 	}
 	cout << "OK\n";
 
+	// Socket init
 	iError = init();
 	if (iError == -1)
 	{
@@ -66,12 +69,16 @@ int main()
 	timer tt;									//timer instantiate
 	GEngine.AddTimer(&tt, 1, 100000, INFINITY);	//timer 1 init
 	GEngine.AddTimer(&tt, 2, 100000, INFINITE);	//timer 2 init
-	GEngine.AddTimer(&tt, 3, 100000, INFINITE);
+	GEngine.AddTimer(&tt, 3, 100000, INFINITE); //timer 3 init
 
 	while (1) {
 		//Call_EMS();
 	}
+
+
 	//never reach here//
+
+
 	return 0;
 }
 
