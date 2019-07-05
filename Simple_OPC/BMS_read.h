@@ -9,9 +9,22 @@
 
 #include "M_depend.h"
 
-int init();
-int Send_Recv();
-int Write_PCS(int User_num);
+class ReadESS 
+{
+public:
+
+	int init();
+	int Send_Recv();
+	int Write_PCS(int User_num);
+private:
+
+	int iRet = 0;															//a global identifier for error detect
+	SOCKET clientSocket = NULL;
+	int filecount = 0;
+	void welcome_info();
+
+};
+
 
 
 

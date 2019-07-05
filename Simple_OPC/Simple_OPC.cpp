@@ -13,7 +13,8 @@
 using namespace std;
 
 PGconn* conn;			//postgreSQL connection init
-TimerEngine GEngine;	//timer init
+TimerEngine TEngine;	//timer init
+ReadESS REngine;
 
 class timer :public ITimerEngineCallBack
 {
@@ -56,7 +57,7 @@ int main()
 	cout << "OK\n";
 
 	// Socket init
-	iError = init();
+	iError = REngine.init();
 	if (iError == -1)
 	{
 		cout << "Socket failed\n";
@@ -65,11 +66,11 @@ int main()
 
 	Data_load();								//Load pv and load data from csv file
 
-	GEngine.StartEngine();						//timer's engine starts
+	TEngine.StartEngine();						//timer's engine starts
 	timer tt;									//timer instantiate
-	GEngine.AddTimer(&tt, 1, 100000, INFINITY);	//timer 1 init
-	GEngine.AddTimer(&tt, 2, 100000, INFINITE);	//timer 2 init
-	GEngine.AddTimer(&tt, 3, 100000, INFINITE); //timer 3 init
+	TEngine.AddTimer(&tt, 1, 100000, INFINITY);	//timer 1 init
+	TEngine.AddTimer(&tt, 2, 100000, INFINITE);	//timer 2 init
+	TEngine.AddTimer(&tt, 3, 100000, INFINITE); //timer 3 init
 
 	while (1) {
 		//Call_EMS();

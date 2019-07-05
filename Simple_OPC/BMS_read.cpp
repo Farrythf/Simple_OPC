@@ -11,13 +11,7 @@ using namespace std;
 #define PortNum 502
 #define IPaddr "192.168.10.116"
 
-int iRet = 0;															//a global identifier for error detect
-SOCKET clientSocket;
-int filecount = 0;
-
-void welcome_info();
-
-int init()
+int ReadESS::init()
 {
 
 #pragma region Socketlib_init
@@ -122,7 +116,7 @@ int init()
 	return 0;
 }
 
-void welcome_info()
+void ReadESS::welcome_info()
 {
 	std::cout << "Engine statr\n";
 	std::cout << "Version: 2.0.0\n";
@@ -133,7 +127,7 @@ void welcome_info()
 	cout << "\n";
 }
 
-int Send_Recv()
+int ReadESS::Send_Recv()
 {
 
 #pragma region String_init
@@ -410,7 +404,7 @@ int Send_Recv()
 	return 0;
 }
 
-int Write_PCS(int User_num)
+int ReadESS::Write_PCS(int User_num)
 {
 	int u;
 	char Rev_data[Maxdatasize];
